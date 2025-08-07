@@ -1,0 +1,38 @@
+dataset=DFEW
+workers=8
+epochs=25
+batch_size=8
+lr=0.0001
+weight_decay=0.01
+print_freq=10
+milestones=[25]
+exper_name=FINAL_224
+temporal_layers=1
+img_size=160
+number_class=7
+class_names=['happiness.', 'sadness.', 'neutral.', 'anger.', 'surprise.', 'disgust.', 'fear.']
+********************0********************
+Current learning rate: 0.0001
+Epoch: [0][   0/1169]	Loss 1.6958 (1.6958)	Accuracy 37.500 (37.500)
+Epoch: [0][  10/1169]	Loss 1.9743 (1.7776)	Accuracy 25.000 (32.955)
+Epoch: [0][  20/1169]	Loss 1.9932 (1.8218)	Accuracy  0.000 (23.810)
+Epoch: [0][  30/1169]	Loss 1.5687 (1.8367)	Accuracy 50.000 (22.984)
+Epoch: [0][  40/1169]	Loss 1.7790 (1.8213)	Accuracy 62.500 (24.695)
+Epoch: [0][  50/1169]	Loss 1.7833 (1.8289)	Accuracy 25.000 (22.794)
+Epoch: [0][  60/1169]	Loss 1.7629 (1.8176)	Accuracy 12.500 (23.770)
+Epoch: [0][  70/1169]	Loss 1.7416 (1.8273)	Accuracy 25.000 (23.239)
+Epoch: [0][  80/1169]	Loss 1.6409 (1.8200)	Accuracy 25.000 (22.531)
+Epoch: [0][  90/1169]	Loss 1.8873 (1.8150)	Accuracy 25.000 (23.489)
+Epoch: [0][ 100/1169]	Loss 1.9144 (1.8145)	Accuracy  0.000 (22.896)
+Epoch: [0][ 110/1169]	Loss 1.8041 (1.8189)	Accuracy 12.500 (22.410)
+Epoch: [0][ 120/1169]	Loss 1.7136 (1.8201)	Accuracy 25.000 (22.211)
+Epoch: [0][ 130/1169]	Loss 1.5952 (1.8171)	Accuracy 25.000 (21.851)
+Epoch: [0][ 140/1169]	Loss 2.0562 (1.8161)	Accuracy 12.500 (22.695)
+Epoch: [0][ 150/1169]	Loss 2.0032 (1.8163)	Accuracy 25.000 (22.268)
+Epoch: [0][ 160/1169]	Loss 1.9947 (1.8162)	Accuracy  0.000 (22.127)
+Epoch: [0][ 170/1169]	Loss 1.6092 (1.8131)	Accuracy 37.500 (22.295)
+Epoch: [0][ 180/1169]	Loss 1.6960 (1.8140)	Accuracy  0.000 (21.823)
+Epoch: [0][ 190/1169]	Loss 1.5116 (1.8121)	Accuracy 62.500 (22.055)
+Epoch: [0][ 200/1169]	Loss 1.7437 (1.8124)	Accuracy 25.000 (22.015)
+Epoch: [0][ 210/1169]	Loss 2.3636 (1.8132)	Accuracy 12.500 (22.156)
+Epoch: [0][ 220/1169]	Loss 1.6723 (1.8127)	Accuracy 37.500 (21.946)
